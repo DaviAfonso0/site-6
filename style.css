@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'karasha';
+    src: url('fonts/Karasha\ \(DEMO\).ttf') format(truetype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #89e1f3c9;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to bottom,#337ce9,#04155f);
+    padding: 10px;
+}
+.titulo-header{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.paragrafo-header{
+    text-indent: 40px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.nav-header{
+    width: 400px;
+    height: 40px;
+    margin: auto;
+}
+.lista-header{
+    display: flex;
+}
+.li-header{
+    margin-right: 30px;
+    list-style: none;
+}
+.link-header{
+    text-decoration: none;
+    color: rgb(0, 1, 8);
+    font-weight: bolder;
+}
+.link-header:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.link-header:visited{
+    color:white;
+}
+main{
+    background-color:  white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+.titulo-principal-main{
+    font-family: 'karasha';
+    text-align: center;
+}
+.subtitulo-main{
+    font-family: 'karasha';
+    background-color: rgba(195, 247, 239, 0.288);
+    padding-left: 6px;
+}
+.paragrafo-section{
+    text-indent: 40px;
+}
+.span-natureza{
+    font-weight: bolder;
+}
+.assuntos-abordados{
+    background-color: rgb(195, 247, 239);
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+.titulo-lista{
+    background-color: rgb(9, 104, 141);
+    padding: 10px;
+    border-radius: 8px;
+}
+.lista-titulo{
+    font-weight: bolder;
+}
+.lista-traumas{
+    list-style: none;
+}
+.video{
+    background-color: rgb(195, 247, 239);
+    height: 750px;
+    padding:0 10px 0 10px;
+}
+.video-fundo{
+    width: 560px;
+    height: 315px;
+    margin: auto;
+}
+#video-aot{
+    font-family: 'karasha';
+    padding: 10px 0 0 5px;
+    font-size: 30px;
+    text-align: center;
+}
+iframe{
+    margin-bottom: 20px;
+}
+.finais{
+    padding: 10px;
+}
+.final-natureza{
+    background-color: rgba(195, 247, 239, 0.288);
+    font-family: 'karasha';
+    text-align: center;
+    font-size: 30px;
+    border-radius: 6px 0;
+}
+footer{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    background-color: #337ce9;
+}
+.paragrafo-footer{
+    margin-top:0 ;
+    text-align: center;color: white;
+}
